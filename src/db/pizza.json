@@ -1,0 +1,172 @@
+{"pizza":
+[
+  {
+    "id": 0,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FbeefandCrispy%2Fnew%2Fbeefandcrispy-fullpizza.webp&w=600&q=75",
+    "title": "Піца Біф енд Кріспі",
+    "pricePizza": 329
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75",
+    "title": "Піца з в’яленими томатами та куркою",
+    "pricePizza": 339
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FHrusha%2Fpearandbluecheese-fullpizza.webp&w=600&q=75",
+    "title": "Піца з грушею і блакитним сиром",
+    "pricePizza": 295
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FbeefandCrispy%2Fnew%2Fbeefandcrispy-fullpizza.webp&w=600&q=75",
+    "title": "Піца Біф енд Кріспі",
+    "pricePizza": 329
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fdiabolo-fullpizza.webp&w=600&q=75",
+    "title": "Піца Діабло",
+    "pricePizza": 329
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fturkey-pizza-plate.webp&w=600&q=75",
+    "title": "Піца з індичкою",
+    "pricePizza": 319
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fbarbekiu1.webp&w=600&q=75",
+    "title": "Піца Барбекю",
+    "pricePizza": 291
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkarbonara.webp&w=600&q=75",
+    "title": "Піца Карбонара",
+    "pricePizza": 309
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkantry.webp&w=600&q=75",
+    "title": "Піца Кантрі",
+    "pricePizza": 305
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmarharyta-2-bez-tomatov-min.webp&w=600&q=75",
+    "title": "Піца Маргарита",
+    "pricePizza": 322
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fjb-3rtch-min.webp&w=600&q=75",
+    "title": "Піца Джамайка Бомбастик",
+    "pricePizza": 289
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fe164f3a9-80cc-41c3-9d86-1c0c057bf444.webp&w=600&q=75",
+    "title": "Піца Грецька з тунцем",
+    "pricePizza": 325
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ftoskana-2300.webp&w=600&q=75",
+    "title": "Піца Тоскана",
+    "pricePizza": 320
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fchiken%20kebab%2Fchickenkebab-fullpizza.webp&w=600&q=75",
+    "title": "Піца Чікен кебаб",
+    "pricePizza": 289
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fprovans-min.webp&w=600&q=75",
+    "title": "Піца Прованс",
+    "pricePizza": 315
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fekstravahanza-reedit1-min.webp&w=600&q=75",
+    "title": "Піца Екстраваганзa",
+    "pricePizza": 349
+  },
+  {
+    "id": 16,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fdominos-royal-cheeseburger-72dpi-1500x1227px-min.webp&w=600&q=75",
+    "title": "Піца Роял Чізбургер",
+    "pricePizza": 339
+  },
+  {
+    "id": 17,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmiunkh-byh-nky5b-min.webp&w=600&q=75",
+    "title": "Піца Мюнхенська Делюкс",
+    "pricePizza": 329
+  },
+  {
+    "id": 18,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fbarbekiu-deliuks-min.webp&w=600&q=75",
+    "title": "Піца Барбекю Делюкс",
+    "pricePizza": 314
+  },
+  {
+    "id": 19,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmytstsa-min.webp&w=600&q=75",
+    "title": "Піца Мітца",
+    "pricePizza" : 349
+  },
+  {
+    "id": 20,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fchorizo-pizza-plate.webp&w=600&q=75",
+    "title": "Піца Чорізо",
+    "pricePizza": 319
+  },
+  {
+    "id": 21,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fdorblue-pizza.webp&w=600&q=75",
+    "title": "Піца Курка-Дорблю",
+    "pricePizza": 309
+  },
+  {
+    "id": 22,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2F5-syrov-min.webp&w=600&q=75",
+    "title": "Піца П'ять Сирів",
+    "pricePizza": 339
+  },
+  {
+    "id": 23,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fsalmonphill-discpizzaing-re-made-min-min.webp&w=600&q=75",
+    "title": "Піца Лосось Філадельфія",
+    "pricePizza": 355
+  },
+  {
+    "id": 24,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fshpynat-y-feta-min.webp&w=600&q=75",
+    "title": "Піца Шпинат і Фета",
+    "pricePizza": 329
+  },
+  {
+    "id": 25,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fhavaiskaia-min.webp&w=600&q=75",
+    "title": "Піца Гавайська",
+    "pricePizza": 299
+  },
+  {
+    "id": 26,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2Fbeef-pizza-plate.webp&w=600&q=75",
+    "title": "Піца з телятиною",
+    "pricePizza": 319
+  },
+  {
+    "id": 27,
+    "imageUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ftony-pepperony-min.webp&w=600&q=75",
+    "title": "Піца Тоні Пепероні",
+    "pricePizza": 293
+  }
+]
+}
