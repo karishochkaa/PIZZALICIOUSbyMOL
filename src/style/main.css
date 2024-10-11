@@ -1,33 +1,24 @@
-
+/* Імпорт шрифту */
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 
+/* Загальні властивості для усіх сторінок */
 *{
     list-style: none;
     text-decoration: none;
     margin: 0;
     padding: 0;
-  }
-  :root {
-    --font-family: "Montserrat", sans-serif;
-    --second-family: "Oleo Script", sans-serif;
-    --third-family: "Font Awesome 5 Free", sans-serif;
-    --font3: "Dela Gothic One", sans-serif;
-  }
-  :root {
-      --d63920: #d63920;
-      --b72a23: #b72a23;
-      --f4dcae: #f4dcae;
-      --f8f7f2: #f8f7f2;
-      --ffffff: #fff;
-      --2d2d2d: #2d2d2d;
-      --555555: #555;
-  }
+}
+
+/* MAIN PAGE */
+/* Властивості для картинки в офері для всіх сторінок */
   .offer_image{
     margin: 70px 0px 0px 70px;
     width: 10%;
     height: 200px;
     background-image: url('../../src/image/image1.png');
   }
+
+  /* Загальні властивості секції офер для усіх сторінок */
 .offer_main, .offer_about, .offer_menu, .offer_contact {
   padding-top: 60px;
   width: 100%;
@@ -36,6 +27,8 @@
   background-repeat: no-repeat;
   background-image: url('../../src/image/offer_bg.png');
 }
+
+/* Загальні властивості тексту у офері на всіх сторінках */
 .offer_about p, .offer_menu p, .offer_contact p{
   font-family: var(--font-family);
   font-weight: 400;
@@ -44,6 +37,8 @@
   color: white;
   margin: -80px 0px 0px 170px;
 }
+
+/* Загальні властивості заголовку у офері на всіх сторінках */
 .offer_main h2, .offer_about h2, .offer_menu h2, .offer_contact h2{
   margin: -50px 0px 70px 150px;
   font-family: "Oleo Script", system-ui;
@@ -53,6 +48,8 @@
   color: var(--ffffff);
   width: 47%;
 }
+
+/* Загальні властивості кнопки у офері на сторінці main*/
 .offer_main a {
   padding: 25px 70px;
   margin: 0px 0px 20px 150px;
@@ -69,21 +66,28 @@
   text-align: center;
   color: var(--ffffff);
 }
+
+/* Властивості кнопки при наведені мишки на сторінці main */
 .offer_main a:hover{
   background-color: #d63920
 }
 
+/* Властивості червоної лінії після оферу */
 .offer_main2{
   width: 100%;
   height: 50px;
   background-color: #b72a23;
 }
+
+/* Друга секція на сторінці main*/
 .second_container_main{
   width: 100%;
   background-color: #eae4cd;
   display: flex;
   justify-content: space-between;
 }
+
+/* Секція з картинкою зліва на сторінці main */
 .img_left_main{
   background-image: url('../../src/image/img_left_main.png');
   margin-left: -80px;
@@ -92,17 +96,24 @@
   height: 750px;
   background-repeat: no-repeat;
 }
+
+/* Права секція на сторінці main */
 .right_content_main{
   width: 45%;
 }
+
+/* Секція з інгедієнтами спррава */
 .ingredients {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .right_content_main{
   margin-top: 80px;
 }
+
+/* Права секція заголовок */
 .right_content_main h4 {
   font-family: "Oleo Script", sans-serif;
   font-weight: 400;
@@ -111,33 +122,45 @@
   width: 70%;
   margin-bottom: 50px;
 }
+
+/* Блок з інгедієнтами */
 .ing1, .ing2, .ing3, .ing4{
   width: 70%;
 }
+
+/* Картинка в першому блоці інгедієнтів */
 .ing1_img{
   background-image: url('../../src/image/ing1.png');
   width: 100%;
   height: 105px;
   background-repeat: no-repeat;
 }
+
+/* Картинка в другому блоці інгедієнтів */
 .ing2_img{
   background-image: url('../../src/image/ing2.png');
   width: 100%;
   height: 90px;
   background-repeat: no-repeat;
 }
+
+/* Картинка в третьому блоці інгредієнтів */
 .ing3_img{
   background-image: url('../../src/image/ing3.png');
   width: 100%;
   height: 70px;
   background-repeat: no-repeat;
 }
+
+/* Картинка в четвертому блоці інгредієнтів */
 .ing4_img{
   background-image: url('../../src/image/ing4.png');
   width: 100%;
   height: 75px;
   background-repeat: no-repeat;
 }
+
+/* Заголовок в блоках інгредієнтів */
 .ingredients h5 {
   font-family: "Montserrat", sans-serif;;
   font-weight: 700;
@@ -146,6 +169,8 @@
   color: #2d2d2d;
   margin: 10px 0 20px;
 }
+
+/* Параграфи в блоках інгредієнтів */
 .ingredients p{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -154,6 +179,8 @@
   color: #555;
   margin-bottom: 35px;
 }
+
+/* Третій контейнер main там де бегуща строка */
 .third_container_main{
   border-bottom: 1px solid #b72a23;
   border-top: 1px solid #b72a23;
@@ -161,6 +188,8 @@
   height: 100px;
   background-color: #f8f7f2;
 }
+
+/* Бегуща строка в третьому блоці main */
 .third_container_main marquee{
   width: 100%;
   font-family: "Oleo Script", sans-serif;
@@ -169,6 +198,8 @@
   text-align: center;
   color: #b72a23;
 }
+
+/* Четвертий блок у main */
 .fourth_container_main{
   width: 100%;
   display: flex;
@@ -176,16 +207,22 @@
   background-color: #eae4cd;
   height: 450px;
 }
+
+/* Ліва картинка в четвертому блоці main */
 .fourth_left_img{
   background-image: url('../../src/image/fourth_left_img.png');
   width: 35%;
   height: 450px;
   background-repeat: no-repeat;
 }
+
+/* Центральний блок четвертого сектора main */
 .fourth_center_content{
   width: 30%;
   text-align: center;
 }
+
+/* Заголовок у центральному секторі четвертого блока */
 .fourth_center_content h5{
   text-align: center;
   margin: 120px 0 20px;
@@ -194,6 +231,8 @@
   font-size: 50px;
   color: #b72a23;
 }
+
+/* Параграф у центральному секторі четвертого блоку */
 .fourth_center_content p{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -203,6 +242,8 @@
   text-align: center;
   margin: 0 55px 35px 55px;
 }
+
+/* Кнопка у центральному секторі четвертого блока */
 .fourth_center_content a {
   padding: 20px 50px;
   border-radius: 50px;
@@ -218,20 +259,28 @@
   text-align: center;
   color: var(--ffffff);
 }
+
+/* Кнопка при наведені мишки */
 .fourth_center_content a:hover{
   background-color: #d63920
 }
+
+/* Права картинка в четвертому блоці main */
 .fourth_right_img{
   background-image: url('../../src/image/fourth_right_img.png');
   width: 35%;
   height: 450px;
   background-repeat: no-repeat;
 }
+
+/* П'ятий блок на сторінці main */
 .fifth_container_main{
   width: 100%;
   background-color: #eae4cd;
   border-top: 1px solid #b72a23;
 }
+
+/* Заголовок у п'ятому блоці */
 .fifth_container_main h4{
   padding-top: 150px;
   margin: 0px 0px 50px 150px;
@@ -240,23 +289,33 @@
   font-size: 50px;
   color: #b72a23;
 }
+
+/* Блок з піцами у п'ятому секторі main */
 .pizza {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
+/* Піца лівий блок */
 .pizza_left{
   margin: 0px 125px 50px 170px;
 }
+
+/* Назви піц */
 .pizza1_name, .pizza2_name, .pizza3_name, .pizza4_name, .pizza5_name, .pizza6_name,.pizza7_name, .pizza8_name, .pizza9_name, .pizza10_name{
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
+
+/* Піца правий блок */
 .pizza_right{
   margin: 0px 170px 50px 125px;
 }
+
+/* Кнопки на назвах піц */
 .pizza_left a, .pizza_right a {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -264,10 +323,14 @@
   line-height: 100%;
   color: #2d2d2d;
 }
+
+/* Кнопки на назвах піц при наведені */
 .pizza_left a:hover, .pizza_right a:hover{
   transform: scale(1.2);
   color: #555;
 }
+
+/* Опис піц */
 .pizza1_name p, .pizza2_name p, .pizza3_name p, .pizza4_name p, .pizza5_name p, .pizza6_name p,.pizza7_name p, .pizza8_name p, .pizza9_name p, .pizza10_name p{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -275,6 +338,8 @@
   line-height: 100%;
   color: #2d2d2d;
 }
+
+/* Опис піц */
 .pizza_descripe p{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -284,6 +349,8 @@
   margin-top: 15px;
   margin-bottom: 25px;
 }
+
+/* Блок з картинками та кнопками */
 .fifth_container2{
   width: 100%;
   background-color: #eae4cd;
@@ -291,6 +358,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Ліва картинка */
 .fifth_container_img_left{
   background-image: url('../../src/image/fifth_container_img_left.png');
   width: 25%;
@@ -299,6 +368,8 @@
   margin-left: 110px;
   margin-top: 60px;
 }
+
+/* Права картинка */
 .fifth_container_img_right{
   background-image: url('../../src/image/fifth_container_img_right.png');
   width: 25%;
@@ -306,11 +377,15 @@
   background-repeat: no-repeat;
   margin-bottom: 50px;
 }
+
+/* Центральний блок де кнопка */
 .fifth_container_center{
   text-align: center;
   margin-right: 80px;
   margin-top: 100px;
 }
+
+/* Кнопка */
 .fifth_container_center a {
   padding: 20px 50px;
   border-radius: 50px;
@@ -326,9 +401,13 @@
   text-align: center;
   color: white;
 }
+
+/* Кнопка при наведені */
 .fifth_container_center a:hover{
   background-color: #d63920
 }
+
+/* Текст під кнопкою */
 .fifth_container_center p{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -337,21 +416,29 @@
   color: #555;
   margin-top: 30px;
 }
+
+/* Шостий блок main */
 .sixth_container{
   width: 100%;
   background-color: #eae4cd;
   display: flex;
   justify-content: space-between;
 }
+
+/* Картинка зліва в шостому блоці */
 .sixth_left_img{
   background-image: url('../../src/image/sixth_left_img.png');
   width: 50%;
   height: 730px;
   background-repeat: no-repeat;
 }
+
+/* Права частина в шостому блоці */
 .sixth_right{
   width: 50%;
 }
+
+/* Заголовок в правій частині шостого блоку main */
 .sixth_right h4{
   font-family: "Oleo Script", sans-serif;
   width: 55%;
@@ -361,6 +448,8 @@
   color: #b72a23;
   margin-top: 200px;
 }
+
+/* Текст в правій частині шостого блоку */
 .sixth_right_p{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -371,10 +460,14 @@
   text-align: center;
   margin: 20px 150px 40px 150px;
 }
+
+/* Шостий блок main*/
 .sixth_content{
   display: flex;
   justify-content: space-between;
 }
+
+/* Шостий блок main*/
 .sixth_content_left p, .sixth_content_right p{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -382,12 +475,18 @@
   line-height: 100%;
   color: #2d2d2d;
 }
+
+/* Шостий блок main */
 .sixth_content_left p{
   margin: 20px 10px 15px 90px;
 }
+
+/* Шостий блок main */
 .sixth_content_right p{
   margin: 20px 90px 15px 10px;
 }
+
+/* Друга частина шостого блоку main */
 .sixth_container2{
   width: 100%;
   background-color: #eae4cd;
@@ -396,15 +495,21 @@
   border-top: 1px solid #b72a23;
   border-bottom: 1px solid #b72a23;
 }
+
+/* Картинка справа в шостому блоці */
 .sixth_right_img{
   background-image: url('../../src/image/sixth_right_img.png');
   width: 50%;
   height: 730px;
   background-repeat: no-repeat;
 }
+
+/* Контент зліва в шостому блоці */
 .sixth_left_content{
   width: 50%;
 }
+
+/* Контент зліва в шостому блоці */
 .sixth_left_content h4{
   font-family: "Oleo Script", sans-serif;
   width: 55%;
@@ -414,6 +519,8 @@
   margin-left: 170px;
   margin-top: 200px;
 }
+
+/* Текст в контенті зліва шостого блоку */
 .sixth_left_content p{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -424,6 +531,8 @@
   text-align: center;
   margin: 20px 150px 40px 150px;
 }
+
+/* Картинка винограду зліва в шостому блоці */
 .sixth_left_content_img{
   background-image: url('../../src/image/sixth_left_content_img.png');
   width: 50%;
@@ -431,6 +540,8 @@
   background-repeat: no-repeat;
   margin: -30px 0px 0px 50px;
 }
+
+/* Кнопка в шостому блоці зліва */
 .sixth_left_content a{
   padding: 20px 50px;
   border-radius: 50px;
@@ -447,14 +558,20 @@
   margin-left: 250px;
   margin-top: 40px;
 }
+
+/* Кнопка при наведені */
 .sixth_left_content a:hover{
   background-color: #d63920
 } 
+
+/* Сьомий блок в секції main там де строка бігуча */
 .seventh_container_main{
   width: 100%;
   height: 200px;
   background-color: white;
 }
+
+/* Бігуча строка в сьомому блоці */
 .seventh_container_main marquee{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -466,6 +583,8 @@
   color: #fff;
   background-color: #b72a23;
 }
+
+/* Футер однаковий для всіх сторінок */
 footer{
   width: 100%;
   border-top: 1px solid #b72a23;
@@ -473,12 +592,16 @@ footer{
   justify-content: space-between;
   background-color: #eae4cd;
 }
+
+/* Стилізація лівої, центральної та правої частини main */
 .footer_left, .footer_center, .footer_right{
   width: 30%;
   margin: 50px 0 30px 0;
   text-align: center;
   justify-content: center;
 }
+
+/* Заголовок ліва частина футера */
 .footer_left h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -487,6 +610,8 @@ footer{
   color: #333;
   margin-bottom: 15px;
 }
+
+/* Кнопки ліва частина футера */
 .footer_left a{
   width: 100%;
   display: block;
@@ -497,14 +622,20 @@ footer{
   color: #2d2d2d;
   margin-bottom: 10px;
 }
+
+/* Кнопки при наведені */
 .footer_left a:hover{
   color: #b72a23;
 }
+
+/*  Центральна частина футера*/
 .footer_center{
   margin-top: 50px;
   border-left: 1px solid #b72a23;
   border-right: 1px solid #b72a23;
 }
+
+/* Кнопка центральної частини футера */
 .footer_center a{
   color: #b72a23;
   font-family: 'Lobster';
@@ -512,10 +643,14 @@ footer{
   font-size: 35px;
   font-weight: 700;
 }
+
+/* Кнопка центральної частини при наведені */
 .footer_center a:hover{
   color: #555;
   -webkit-text-stroke: 1px #b72a23;
 }
+
+/* Текст під кнопкою центральної частини футера */
 .footer_center p{
   text-align: center;
   width: 100%;
@@ -527,6 +662,8 @@ footer{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* Права частина футера заголовок */
 .footer_right h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -535,6 +672,8 @@ footer{
   color: #333;
   margin-bottom: 15px;
 }
+
+/* Права частина футера текст */
 .footer_right p{
   width: 100%;
   display: block;
@@ -548,7 +687,8 @@ footer{
 
 
 
-/* About page */
+/* ABOUT PAGE */
+/* Друга секція сторінки about */
 .second_container_about{
   width: 100%;
   background-color: #eae4cd;
@@ -556,6 +696,8 @@ footer{
   justify-content: center;
   border-bottom: 1px solid #b72a23;
 }
+
+/* Друга секція заголовок сторінки about*/
 .second_container_about h3{
   padding-top: 50px;
   margin-bottom: 40px;
@@ -566,6 +708,8 @@ footer{
   font-size: 50px;
   color: #b72a23;
 }
+
+/* Друга секція параграф сторінка about */
 .second_container_about p{
   display: block;
   width: 70%;
@@ -578,6 +722,8 @@ footer{
   color: #2d2d2d;
   margin: 10px 0;
 }
+
+/* Третій контейнер сторінки about */
 .third_container_about{
   padding-top: 50px;
   width: 100%;
@@ -586,6 +732,8 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+
+/* Третя секція картинка 1 сторінки about */
 .third_about_img1{
   background-image: url('../../src/image/third_about_img1.png');
   width: 17%;
@@ -593,6 +741,8 @@ footer{
   height: 360px;
   background-repeat: no-repeat;
 }
+
+/* Третя секція картинка 2 сторінки about */
 .third_about_img2{
   background-image: url('../../src/image/third_about_img2.png');
   width: 17%;
@@ -600,6 +750,8 @@ footer{
   height: 360px;
   background-repeat: no-repeat;
 }
+
+/* Третя секція картинка 3 сторінки about */
 .third_about_img3{
   background-image: url('../../src/image/third_about_img3.png');
   width: 17%;
@@ -607,6 +759,8 @@ footer{
   height: 360px;
   background-repeat: no-repeat;
 }
+
+/* Третя секція картинка 4 сторінки about */
 .third_about_img4{
   background-image: url('../../src/image/third_about_img4.png');
   width: 17%;
@@ -614,6 +768,8 @@ footer{
   height: 360px;
   background-repeat: no-repeat;
 }
+
+/* Третя секція картинка 5 сторінки about */
 .third_about_img5{
   background-image: url('../../src/image/third_about_img5.png');
   width: 17%;
@@ -621,9 +777,13 @@ footer{
   height: 360px;
   background-repeat: no-repeat;
 }
+
+/* Картинки третьої секції сторінки about при наведені */
 .third_about_img1:hover, .third_about_img2:hover, .third_about_img3:hover, .third_about_img4:hover, .third_about_img5:hover{
   transform: scale(1.2)
 }
+
+/* Четверта секція сторінки about */
 .fourth_container_about{
   width: 100%;
   display: flex;
@@ -633,10 +793,14 @@ footer{
   border-top: 1px solid #b72a23;
   background-color: #eae4cd;
 }
+
+/* Четверта секція сторінки about ліва частина */
 .fourth_about_left{
   width: 100%;
   text-align: center;
 }
+
+/* Четверта секція сторінки about заголовок лівої частини */
 .fourth_about_left h3{
   color: #b72a23;
   font-family: 'Lobster';
@@ -646,12 +810,16 @@ footer{
   margin-top: 100px;
   margin-bottom: 40px;
 }
+
+/* Четверта секція права частина */
 .fourth_about_right{
   background-image: url('../../src/image/fourth_about_right.jpg');
   width: 100%;
   height: 500px;
   background-repeat: no-repeat;
 }
+
+/* Четверта секція лівої частинки сторінки about текст */
 .fourth_about_left p{
   display: block;
   width: 90%;
@@ -664,6 +832,8 @@ footer{
   color: #2d2d2d;
   margin: 10px 0 30px 0;
 }
+
+/* Кнопка лівої частини сторінки about четверта секція */
 .fourth_about_left a{
   padding: 15px 40px;
   border-radius: 50px;
@@ -676,14 +846,20 @@ footer{
   text-align: center;
   color: white;
 }
+
+/* Кнопка при наведені */
 .fourth_about_left a:hover{
   background-color: #d63920
 }
+
+/* П'ята частина сторінки about там де бігуча строка */
 .fifth_container_about{
   width: 100%;
   height: 200px;
   background-color: white;
 }
+
+/* Бігуча строка в п'ятій частині сторінки about */
 .fifth_container_about marquee{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -698,7 +874,8 @@ footer{
 
 
 
-/* contact page */
+/* CONTACT PAGE */
+/* Друга секція сторінки contact */
 .second_container_contact{
   width: 100%;
   background-color: #eae4cd;
@@ -708,6 +885,8 @@ footer{
   text-align: center;
   padding-bottom: 50px;
 } 
+
+/* Друга секція заголовок сторінки contact */
 .second_container_contact h3{
   color: #b72a23;
   font-family: 'Lobster';
@@ -717,6 +896,8 @@ footer{
   padding-top: 50px;
   margin-bottom: 40px;
 }
+
+/* Друга секція текст сторінки contact */
 .second_container_contact p{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -726,6 +907,8 @@ footer{
   margin-top: 20px;
   margin-bottom: 35px;
 }
+
+/* Друга секція сторінки contact блок з кнопками */
 .second_container_contact a{
   padding: 15px 40px;
   border-radius: 50px;
@@ -739,9 +922,13 @@ footer{
   color: white;
   margin-bottom: 50px;
 }
+
+/* Кнопки при наведені */
 .second_container_contact a:hover{
   background-color: #d63920;
 }
+
+/* Третій блок сторінки contact */
 .third_container_contact{
   width: 100%;
   background-color: #eae4cd;
@@ -751,6 +938,8 @@ footer{
   text-align: center;
   padding-bottom: 50px;
 } 
+
+/* Третій блок сторінки contact заголовок */
 .third_container_contact h3{
   color: #b72a23;
   font-family: 'Lobster';
@@ -759,6 +948,8 @@ footer{
   font-weight: 700;
   margin-bottom: 40px;
 }
+
+/* Третій блок сторінки contact текст */
 .third_container_contact p{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -768,14 +959,20 @@ footer{
   margin-top: 20px;
   margin-bottom: 35px;
 }
+
+/* Текст при наведені */
 .third_container_contact p:hover{
   color: #b72a23;
 }
+
+/* Четвертий блок сторінки contact */
 .fourth_container_contact{
   width: 100%;
   height: 200px;
   background-color: white;
 }
+
+/* Бігуча строка сторінки contact */
 .fourth_container_contact marquee{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -789,12 +986,15 @@ footer{
 }
 
 
-/* menu */
+/* MENU PAGE */
+/* Блок з коктейлями та піцою сторінки menu */
 .drinks{
   width: 100%;
   background-color: #eae4cd;
   padding-top: 20px;
 }
+
+/* Заголовок блоку коктейлів та піци сторінки menu */
 .drinks h2{
   color: #b72a23;
   font-family: 'Lobster';
@@ -804,6 +1004,8 @@ footer{
   background-color: #eae4cd;
   text-align: center;
 }
+
+/* Сторінка menu */
 .goods_container{
   padding: 3%;
   display: grid;
@@ -811,6 +1013,8 @@ footer{
   gap: 20px;
   background-color: #eae4cd;
 }
+
+/* Картки з товарами сторінки menu */
 .card{
   width: 100%;
   border-radius: 8px;
@@ -822,14 +1026,20 @@ footer{
   text-align: center;
   margin-bottom: 15px;
 }
+
+/* Картки при наведені */
 .card:hover{
   background-color: #d63920;
   transform: scale(1.1)
 }
+
+/* Картинки в картках сторінки menu*/
 .card img{
   width: 100%;
   height: 300px;
 }
+
+/* Заголовок в картках сторінки menu */
 .card h3{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -838,6 +1048,8 @@ footer{
   margin: 10px 0 15px 0;
   color: #333;
 }
+
+/* Кнопки в картках сторінки menu */
 .card button{
   position: relative;
   padding: 10px 15px;
@@ -851,9 +1063,12 @@ footer{
   color: white;
   cursor: pointer;
 }
+
+/* Кнопки при наведені */
 .card button:hover{
   background-color: #b72a23;
 }
+
 
 /* корзина */
 .cart-icon, .cart_icon_box {
@@ -948,9 +1163,7 @@ footer{
 
 .makeOrder {
   background-color: #b72a23;
-  /* Замість $accent_color */
   color: white;
-  /* Замість $main_font_color */
   font-size: 16px;
   border: none;
   border-radius: 9px;
@@ -968,35 +1181,10 @@ footer{
   padding: 10px;
 }
 
-/* .countIcon {
-  width: 1vw;
-  height: 1vw;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 99999999;
-  top: 2.8vw;
-  background-color: #ff5722;
-  opacity: 1;
-  font-size: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .marginText {
   margin: 4vh 0;
 }
-
-/* .countIconActive {
-  opacity: 1;
-} */
-
-/* .countIconText {
-  font-size: 20px;
-  margin-top: 12%;
-  padding: 0;
-  color: white;
-} */
 
 .footerBtnCart {
   display: flex;
@@ -1047,7 +1235,4 @@ footer{
 .name, .count1, .price1{
   text-align: center;
 }
-.total{
-  justify-content: flex-end;
-  text-align: right;
-}
+
